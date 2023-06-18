@@ -2,8 +2,8 @@
   margin-top:2px;
 }
 body {
- 
-  background-image: url("../images/6562.png");
+   
+  background-image: url("../images/about\ us\ page.png");
  
 }
 .link-newStyle{
@@ -34,12 +34,14 @@ margin-left:5px;
     }
 
 .content{
+ 
       width: 70%;
      margin: auto;
       color: white;
       padding: 50px;
    }  
 .content h1{
+  
       text-align: center;
       font-size: 80px;
       font-family: 'Caveat', cursive;
@@ -47,3 +49,50 @@ margin-left:5px;
    }   
   
 
+/* tablet */
+
+
+@media (max-width:768px) 
+{
+  .link-newStyle{
+   
+    margin-left:0px;
+      }
+     
+    
+      .content h1{
+       
+        font-size:50px;
+        
+     } 
+    
+    
+}
+
+@media (max-width:600px) 
+{
+
+    
+  .link-newStyle{
+   
+    margin-left:0px;
+      }
+     
+      .content{
+        width: 100%;
+      }
+
+     .content h1{
+       
+        font-size:30px;
+        
+     } 
+     .content p{
+       
+      font-size:15px;
+      
+   } 
+
+       
+  
+}
